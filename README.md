@@ -1,2 +1,2 @@
 # Drinks
-Database for storing Cocktail Recipes.
+Webapp built using Razor Pages for storing Cocktail Recipes.
