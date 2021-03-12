@@ -1,15 +1,24 @@
-@page
+@page "{searchString?}"
 @model Drinks.Pages.Cocktails.IndexModel
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Menu";
 }
 
-<h1>Index</h1>
+<h1>Menu</h1>
 
 <p>
     <a asp-page="Create">Create New</a>
 </p>
+<form>
+    <p>
+        <select asp-for="CocktailCategory" asp-items="Model.Categories">
+            <option value="">All</option>
+        </select>
+        Name or Ingredient: <input type="text" asp-for="SearchString" />
+        <input type="submit" value="Filter" />
+    </p>
+</form>
 <table class="table">
     <thead>
         <tr>
