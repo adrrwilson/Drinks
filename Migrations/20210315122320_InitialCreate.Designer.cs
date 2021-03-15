@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Drinks.Migrations
 {
     [DbContext(typeof(DrinksContext))]
-    [Migration("20210311221808_InitialCreate")]
+    [Migration("20210315122320_InitialCreate")]
     partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -27,6 +27,9 @@ namespace Drinks.Migrations
                         .HasColumnType("TEXT");
 
                     b.Property<string>("Garnish")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Glass")
                         .HasColumnType("TEXT");
 
                     b.Property<string>("Ingredients")

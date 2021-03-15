@@ -27,6 +27,9 @@ namespace Drinks.Migrations
                     b.Property<string>("Garnish")
                         .HasColumnType("TEXT");
 
+                    b.Property<string>("Glass")
+                        .HasColumnType("TEXT");
+
                     b.Property<string>("Ingredients")
                         .HasColumnType("TEXT");
 

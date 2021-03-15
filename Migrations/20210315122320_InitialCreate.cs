@@ -13,6 +13,7 @@ namespace Drinks.Migrations
                     ID = table.Column<int>(type: "INTEGER", nullable: false)
                         .Annotation("Sqlite:Autoincrement", true),
                     Name = table.Column<string>(type: "TEXT", nullable: true),
+                    Glass = table.Column<string>(type: "TEXT", nullable: true),
                     Category = table.Column<string>(type: "TEXT", nullable: true),
                     Ingredients = table.Column<string>(type: "TEXT", nullable: true),
                     Garnish = table.Column<string>(type: "TEXT", nullable: true),

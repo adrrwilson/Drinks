@@ -26,6 +26,9 @@
                 @Html.DisplayNameFor(model => model.Cocktail[0].Name)
             </th>
             <th>
+                @Html.DisplayNameFor(model => model.Cocktail[0].Glass)
+            </th>
+            <th>
                 @Html.DisplayNameFor(model => model.Cocktail[0].Category)
             </th>
             <th>
@@ -45,6 +48,9 @@
         <tr>
             <td>
                 @Html.DisplayFor(modelItem => item.Name)
+            </td>
+             <td>
+                @Html.DisplayFor(modelItem => item.Glass)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Category)
