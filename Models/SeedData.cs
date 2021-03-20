@@ -14,10 +14,9 @@ namespace Drinks.Models
                 serviceProvider.GetRequiredService<
                     DbContextOptions<DrinksContext>>()))
             {
-                // Look for any movies.
                 if (context.Cocktail.Any())
                 {
-                    return;   // DB has been seeded
+                    return;  
                 }
 
                 context.Cocktail.AddRange(

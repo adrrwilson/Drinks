@@ -171,3 +171,14 @@
 /home/adrian/projs/Drinks/obj/Debug/net5.0/Razor/Pages/Cocktails/Details.cshtml.g.cs
 /home/adrian/projs/Drinks/obj/Debug/net5.0/Razor/Pages/Cocktails/Edit.cshtml.g.cs
 /home/adrian/projs/Drinks/obj/Debug/net5.0/Razor/Pages/Cocktails/Index.cshtml.g.cs
+/home/adrian/projs/Drinks/bin/Debug/net5.0/site/web.config
+/home/adrian/projs/Drinks/bin/Debug/net5.0/site/appsettings.Development.json
+/home/adrian/projs/Drinks/bin/Debug/net5.0/site/appsettings.json
+/home/adrian/projs/Drinks/bin/Debug/net5.0/site/Drinks.deps.json
+/home/adrian/projs/Drinks/bin/Debug/net5.0/site/Drinks.runtimeconfig.json
+/home/adrian/projs/Drinks/bin/Debug/net5.0/site/site/web.config
+/home/adrian/projs/Drinks/bin/Debug/net5.0/aws-windows-deployment-manifest.json
+/home/adrian/projs/Drinks/bin/Debug/net5.0/site/site/appsettings.Development.json
+/home/adrian/projs/Drinks/bin/Debug/net5.0/site/site/appsettings.json
+/home/adrian/projs/Drinks/bin/Debug/net5.0/site/site/Drinks.deps.json
+/home/adrian/projs/Drinks/bin/Debug/net5.0/site/site/Drinks.runtimeconfig.json

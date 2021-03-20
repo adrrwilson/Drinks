@@ -35,9 +35,13 @@ namespace Drinks.Pages.Cocktails
             var cocktails = from m in _context.Cocktail
                         select m;
             if (!string.IsNullOrEmpty(SearchString))
-            {
-                cocktails = cocktails.Where(s => s.Name.ToUpper().Contains(SearchString.ToUpper()) 
-                                    || s.Ingredients.ToUpper().Contains(SearchString.ToUpper())); 
+            {   
+                string [] words = SearchString.Split(", ");
+                foreach (var word in words)
+                {
+                    cocktails = cocktails.Where(s => s.Name.ToUpper().Contains(word.ToUpper()) 
+                                   || s.Ingredients.ToUpper().Contains(word.ToUpper())); 
+                }
             }
             if (!string.IsNullOrEmpty(CocktailCategory))
             {
